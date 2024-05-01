@@ -1,0 +1,65 @@
+.calendar {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+  background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #D3FF6D9C 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #6DFFAEF5 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+}
+
+h2 {
+  color: white;
+  font-size: x-large;
+  font-size: 2rem;
+}
+
+.datePickerContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.datePicker {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.bookButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.bookButton:hover {
+  background-color: #45a049;
+}
+
+.dateList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dateItem {
+  margin-bottom: 10px;
+}
+
+.available {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.booked {
+  color: white;
+  text-decoration: line-through;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
